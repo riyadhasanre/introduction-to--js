@@ -18,7 +18,7 @@ var harrysmomGave = 1000;
 var orangesPrice = 400;
 var applesPrice = 300;
 var totalPrice = orangesPrice + applesPrice;
-console.log(orangesPrice + applesPrice);
+console.log(totalPrice);
 var outputPrice = harrysmomGave - totalPrice;
 console.log(harrysmomGave - totalPrice);
 // ---problem solving 2--
@@ -30,7 +30,9 @@ var bagla = 99.50;
 var totlaSubjectmark = mathmatics + biology + chemistry + physics + bagla;
 console.log(totlaSubjectmark);
 var gorMark = totlaSubjectmark / 5;
+var toDesimal = gorMark.toFixed(2);
 console.log(gorMark);
+console.log(toDesimal);
 // Problem solving 3
 var contains1 = "I am going to be"
 var contains2 = "an awesome webdeveloper"
