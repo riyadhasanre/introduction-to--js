@@ -43,3 +43,21 @@ console.log(totalContains);
 var saharsteacherGave = 119;
 var remainder = saharsteacherGave % 5;
 console.log(remainder);
+ 
+// problem solving 5 
+var fruits = ["apple", "banana", "orange"];
+var get = fruits.indexOf("banana");
+fruits[get] = "mango"
+console.log(get);
+console.log(fruits);
+fruits.pop();
+console.log(fruits);
+fruits.push("watermelon");
+console.log(fruits);
+
+// problem solving 7
+var num1 = 13;
+var num2 = 79;
+var num3 = 45;
+ 
+ 
